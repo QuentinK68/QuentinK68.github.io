@@ -30,10 +30,10 @@ main{
 main>div{
     margin: auto;
     padding: 20px;
+    display: flex;
 }
 
 div{
-    display: flex;
     margin: auto;
     padding: 20px;
 }
