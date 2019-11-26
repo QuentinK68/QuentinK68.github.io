@@ -1,12 +1,19 @@
 header{
+    display: flex;
     margin: 0px;
-    color: white;
-    text-align: center;
-    background-color: rgb(25, 100,30);
+    background-color: rgb(98, 169, 216);
+    border: 1px solid white;
+    text-decoration: roboto bold;
+}
+
+h2{
+    margin: 10px;
+    padding: 15px;
+    font-family: roboto bold;
 }
 
 body{
-    background-color: black;
+    background-color:  rgb(98, 169, 216);
     margin: 0px;
     display: grid;
     grid-template-rows: auto 1fr;
@@ -16,43 +23,17 @@ body{
 
 main{
 
-    background: black;
-    display: flex;
+    background:  rgb(98, 169, 216);
 
 }
 
 main>div{
-    color: white;
     margin: auto;
-    border: 2px solid;
     padding: 20px;
 }
 
 div{
     display: flex;
     margin: auto;
-    border: 2px solid;
     padding: 20px;
-}
-
-.position{
-    color: white;
-    font-size: 42px;
-    border-radius: 100% white;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 50px;
-    text-align: center;
-
-}
-
-
-
-.zone{
-    background: green;
-    padding: 1px;
-    margin:50px;
-    border-radius: 20px;
-    position: relative;
 }
